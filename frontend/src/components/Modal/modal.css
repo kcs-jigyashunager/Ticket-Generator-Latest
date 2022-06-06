@@ -1,0 +1,86 @@
+.openbutton{
+    color: white;
+    display: block;
+    color: black;
+    font-weight: 700;
+    background-color: yellow;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.openbutton:hover{
+    color: yellow;
+    background-color: green;
+
+}
+
+.closebutton{
+    color: white;
+    display: block;
+    color: black;
+    font-weight: 700;
+    background-color: yellow;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.closebutton:hover{
+    color: yellow;
+    background-color: green;
+
+}
+
+#feedback-form {
+    width: 280px;
+    margin: 0 auto;
+    background-color: #fcfcfc;
+    padding: 20px 50px 40px;
+    box-shadow: 1px 4px 10px 1px #aaa;
+    font-family: sans-serif;
+  }
+  
+  #feedback-form * {
+      box-sizing: border-box;
+  }
+  
+  #feedback-form h2{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #feedback-form input {
+    margin-bottom: 15px;
+  }
+  
+  #feedback-form input[type=text] {
+    display: block;
+    height: 32px;
+    padding: 6px 16px;
+    width: 100%;
+    border: none;
+    background-color: #f3f3f3;
+  }
+  
+  #feedback-form label {
+    color: #777;
+    font-size: 0.8em;
+  }
+  
+  #feedback-form input[type=checkbox] {
+    float: left;
+  }
+  
+  #feedback-form input:not(:checked) + #feedback-phone {
+    height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  #feedback-form #feedback-phone {
+    transition: .3s;
+  }
+  
+  .para{
+    color: steelblue;
+    font-size: 1px;
+  }

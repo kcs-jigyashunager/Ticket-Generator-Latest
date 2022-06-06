@@ -1,0 +1,92 @@
+body {
+  background-color: black;
+
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: yellow;
+    color: black;
+  }
+
+  .button{
+    float: right;
+    padding-right: 50px;
+    background-color: yellow;
+    border-radius: 3px;
+    font-weight: 700;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+
+  }
+
+  .edit{
+    border: black;
+    background-color: yellow;
+    color: black;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-right: 4px;
+  }
+
+  
+  .delete{
+    border: black;
+    background-color: yellow;
+    color: black;
+    font-weight: 500;
+    border-radius: 5px;
+  }
+
+  .paginationBttns {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    color: lightyellow;
+    cursor: pointer;
+  }
+  
+  .paginationBttns a:hover {
+    color: black;
+    background-color: yellow;
+  }
+  
+  .paginationActive a {
+    color: yellow;
+    background-color: black;
+  }
+  
+  .paginationDisabled a {
+    color: white;
+    background-color: black;
+  }
+  
